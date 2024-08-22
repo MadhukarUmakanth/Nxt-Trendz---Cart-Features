@@ -123,6 +123,10 @@ class LoginForm extends Component {
             Login
           </button>
           {showSubmitError && <p className="error-message">*{errorMsg}</p>}
+          <div>
+            <p>USERNAME : rahul</p>
+            <p>PASSWORD : rahul@2021</p>
+          </div>
         </form>
       </div>
     )
